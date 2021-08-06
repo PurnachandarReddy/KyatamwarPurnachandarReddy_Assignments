@@ -1,0 +1,33 @@
+.rohit{
+    font-size: 2.5 em;
+    font-weight: lighter;
+    margin-bottom: 0;
+}
+img{
+   
+    display: block;
+    width: 50%;
+    margin: 40px auto;
+}
+.title
+{
+    color:rgb(87, 85, 85);
+    font-family:sans-serif;
+    text-align: center;
+}
+.title p{
+    margin: 0;
+}
+h4
+{
+    color: rgb(48, 48, 48);
+    line-height: 1.5;
+    font-family: 40 px 'Times New Roman';
+
+}
+.content{
+    margin: 15px 20%;
+    padding: 5px 5%;
+    font-size: 1.2rem;
+    border:1px solid rgb(236, 236, 236);
+}
