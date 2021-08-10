@@ -1,0 +1,36 @@
+<html>
+<head>
+    <style>
+        body {
+            margin: 30px;
+        }
+        </style> 
+        <title>sixteen</title>
+</head>
+<body>
+    <script>
+        function createTable()
+        {
+        rn = window.prompt("Input number of rows");
+        cn = window.prompt("Input number of columns");
+        
+        for(var r=0;r<parseInt(rn);r++)
+        {
+         var x=document.getElementById('myTable').insertRow(r);
+            for(var c=0;c<parseInt(cn);c++)  
+                {
+                var y=  x.insertCell(c);
+                y.innerHTML="Row-"+r+" Col-"+c; 
+                
+                }
+        }
+        }
+    </script>
+        
+        <table id="myTable" border="1">
+        </table>
+        <form>
+        <input type="button" onclick="createTable()" value="Create the table">
+        </form>
+</body>
+</html>

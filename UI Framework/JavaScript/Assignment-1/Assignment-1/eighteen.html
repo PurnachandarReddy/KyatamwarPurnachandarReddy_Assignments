@@ -1,0 +1,17 @@
+<html>
+<head>
+    <title>eighteen</title>
+</head>
+<body>
+    
+    <script>
+        var str= "The quick brown fox";
+        var str1=str.split(" ");
+        var newstr="";
+        for(let i=0;i<str1.length;i++){
+           newstr=newstr+str1[i].slice(1,str1[i].length)+str1[i][0]+"ay ";
+        }
+        document.writeln(newstr);
+    </script>
+</body>
+</html>

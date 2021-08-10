@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>thirteen</title>
+    </head>
+    <body>
+        <script>
+            
+          function forloop(a)
+          {
+            var sumFor=0;
+              for(i=1;i<=a;i++)
+              {
+                sumFor=sumFor+i;    
+              }
+              document.writeln("For loop sum "+sumFor);
+              document.writeln("<br>");
+          }
+          function whileloop(b)
+          {
+              var sumwhile=0;
+              var j=1
+              while(j<=b)
+              {
+                sumwhile=sumwhile+j;   
+                 j++ 
+              }
+              document.writeln("<br>");
+              document.writeln("while loop sum "+sumwhile);
+              document.writeln("<br>");
+          }
+          function dowhileloop(c)
+          {
+              var sumdo=0;
+              var k=1;
+              do {
+                 sumdo=sumdo+k;
+                 k++;
+                } while (k<=c);
+                document.writeln("<br>");
+                document.writeln("do while loop sum "+sumdo);
+                document.writeln("<br>");
+
+          }
+          var n=parseInt(prompt("enter a number"));
+           forloop(n);
+           whileloop(n);
+           dowhileloop(n);
+           
+        </script>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>fourteen</title>
+</head>
+<body>
+    <script>
+        const ARRAY_LENGTH = 100;
+        var arr=[];
+        var even=0;
+        var odd=0;
+        var sum=0;
+        var avg=0;
+        arr= Array.from(Array(ARRAY_LENGTH)).map(x=>Math.floor(Math.random()*100));
+        console.log(arr,typeof(arr[0]));
+        console.log(Math.max(...arr));
+        console.log(Math.min(...arr));
+        for (let i=0;i<100;i++){
+            sum=sum+arr[i];
+            if(arr[i]%2===0)
+            {
+                even++;
+            } 
+            else
+            {
+                odd++;
+            } 
+        }
+        console.log("even number count",even);
+        console.log("odd number count",odd);
+        console.log(Math.max(even,odd));
+        console.log("sum is:",sum);
+        avg=sum/ARRAY_LENGTH;
+        console.log("avg is:",avg);
+    </script>
+</body>
+</html>
