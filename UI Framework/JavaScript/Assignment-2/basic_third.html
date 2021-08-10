@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Basic_third.html</title>
+    </head>
+<body> 
+    <script>
+        function isEven(a)
+        {
+            if(a%2==0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        function find(arr,isEven)
+        {
+            for(i=0;i<arr.length;i++)
+            {
+                if(isEven(arr[i]))
+                {
+                    return arr[i];
+                }
+            }
+        }
+
+        document.write(find([1,2,3,4,5,6],isEven));
+    </script>
+</body>   
