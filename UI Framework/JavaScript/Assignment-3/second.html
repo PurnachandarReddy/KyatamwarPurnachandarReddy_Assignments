@@ -1,0 +1,36 @@
+<html>
+<head>
+    <title>second</title>
+</head>
+<body>
+    <script>
+        class Rectangle {
+            constructor(width, height) {
+                this.width = width;
+                this.height = height;
+            }
+            result() 
+            {
+                document.writeln("Rectangle Width: " + this.width + " height: " + this.height + "<br>");
+            }
+            result1() 
+            {
+                document.writeln("Rectangle height: " + this.height + " Width: " + this.width + "<br>");
+            }
+            getArea()
+            {
+                document.writeln("Rectangle Area: " + this.height * this.width + "<br>");
+
+            }
+        }
+
+        var rectangle1 = new Rectangle(20, 30);
+        var rectangle2 = new Rectangle(200, 50);
+        var rectangle3 = new Rectangle(10,20);
+
+        rectangle1.result();
+        rectangle2.result1();
+        rectangle3.getArea();
+    </script>
+</body>
+</html>

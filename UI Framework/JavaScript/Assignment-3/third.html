@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>third</title>
+</head>
+<body>
+    <script>
+        class Rectangle {
+            constructor(width, height) {
+                this.width = width;
+                this.height = height;
+            }
+            result() 
+            {
+                document.writeln("Rectangle Width: " + this.width + " height: " + this.height + "<br>");
+            }
+
+            getArea()
+            {
+                document.writeln("Rectangle Area: " + this.height * this.width + "<br>");
+
+            }
+        }
+
+        var rectangle1 = new Rectangle(4,5);
+        rectangle1.result();
+        rectangle1.height=50;
+        rectangle1.getArea();
+    </script>
+</body>
+</html>
