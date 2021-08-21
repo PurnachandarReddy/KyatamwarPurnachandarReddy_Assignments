@@ -1,0 +1,18 @@
+[
+    {
+        "id": 101,
+      "name": "kpcreddy",
+      "role": "Developer"
+      
+    },
+    {
+        "id": 102,
+        "name": "kpc",
+        "role": "Analyst"
+    },
+    {
+        "id": 103,
+        "name": "Reddy",
+        "role": "Data Analyst"
+    }
+]
